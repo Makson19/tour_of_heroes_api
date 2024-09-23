@@ -1,24 +1,40 @@
-# README
+# Tour of Heroes API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este repositório contem uma API criada usando Rails.
 
-Things you may want to cover:
+<table>
+  <tbody>
+    <tr>
+      <th>Ruby version</th>
+      <th>3.0.3</th>
+    </tr>
+    <tr>
+      <th>Rails version</th>
+      <th>6.1.7.8</th>
+    </tr>
+    <tr>
+      <th>Database</th>
+      <th>SQLite3</th>
+    </tr>
+  </tbody>
+</table>
 
-* Ruby version
+## Configurações iniciais para rodar o projeto
 
-* System dependencies
+```
+# clonar o projeto
+git clone git@github.com:Makson19/tour_of_heroes_api.git
 
-* Configuration
+# instalar as dependências do Ruby on Rails
+bundle install
 
-* Database creation
+# criar as tabelas
+rails db:migrate
+```
 
-* Database initialization
+## Rodar o projeto
 
-* How to run the test suite
+```
+rails s
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
